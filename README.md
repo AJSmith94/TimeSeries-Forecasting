@@ -14,9 +14,9 @@ decomposed the data to examine the underlying trend,
 seasonality and error. I then experimented on the data
 by fitting different models to explain the series and
 analysed the effectiveness of each one. These models
-include a baseline ( naïve ) model, extrapolation models
+include a baseline ( naïve ) model, extrapolation models,
 Single Exponential Smoothing (SES), Holt Linear and
 Holt Winters ), simple and multiple linear regression,
-and ARIMA s. After describing each model, I fitted it to
+and ARIMAs. After describing each model, I fitted it to
 our data, extracted the required forecast, and
 calculated the error statistics.
