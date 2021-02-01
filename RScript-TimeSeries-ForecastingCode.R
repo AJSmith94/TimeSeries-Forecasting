@@ -264,7 +264,7 @@ plot(lm(data=TimeSeriesCourseworkData19_20_for_multiple_linear_regression,`Numbe
 
 plot(Patients)
 
-4lm(data=TimeSeriesCourseworkData19_20_for_multiple_linear_regression,`Number of patients`~Month)
+lm(data=TimeSeriesCourseworkData19_20_for_multiple_linear_regression,`Number of patients`~Month)
 summary(lm(data=TimeSeriesCourseworkData19_20_for_multiple_linear_regression,`Number of patients`~Day+Month+Year))
 
 kmeans(TimeSeriesCourseworkData19_20_for_multiple_linear_regression[,-1],4)
